@@ -22,4 +22,13 @@
             </cieslix_test>
         </models>
     </global>
+    <frontend>
+        <layout>
+            <updates>
+                <cieslix_test>
+                    <file>cieslix/test.xml</file>
+                </cieslix_test>
+            </updates>
+        </layout>
+    </frontend>
 </config>
