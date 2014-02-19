@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Cieslix_Test>
+            <version>1.0.0</version>
+        </Cieslix_Test>
+    </modules>
+    <global>
+        <blocks>
+            <cieslix_test>
+                <class>Cieslix_Test_Block</class>
+            </cieslix_test>
+        </blocks>
+        <helpers>
+            <cieslix_test>
+                <class>Cieslix_Test_Helper</class>
+            </cieslix_test>
+        </helpers>
+        <models>
+            <cieslix_test>
+                <class>Cieslix_Test_Model</class>
+            </cieslix_test>
+        </models>
+    </global>
+</config>
