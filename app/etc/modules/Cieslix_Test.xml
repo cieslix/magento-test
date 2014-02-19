@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Cieslix_Test>
+            <active>true</active>
+            <codePool>local</codePool>
+            <depends></depends>
+        </Cieslix_Test>
+    </modules>
+</config>
