@@ -9,7 +9,7 @@ and open the template in the editor.
 <layout>
     <default>
         <reference name="content">
-            <block type="cieslix_test/test" after="-" name="cieslix_test_test" template="cieslix/test/test.phtml" />
+            <block type="cieslix_test/test" name="cieslix_test_test" template="cieslix/test/test.phtml" />
         </reference>
     </default>
 </layout>
