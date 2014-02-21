@@ -21,6 +21,17 @@
                 <class>Cieslix_Test_Model</class>
             </cieslix_test>
         </models>
+        <events>
+            <controller_action_predispatch_cms>
+                <observers>
+                    <Cieslix_Test_Model_Test>
+                        <type>singleton</type>
+                        <class>cieslix_test/test</class>
+                        <method>cmsHome</method>
+                    </Cieslix_Test_Model_Test>
+                </observers>
+            </controller_action_predispatch_cms>
+        </events>
     </global>
     <frontend>
         <layout>
